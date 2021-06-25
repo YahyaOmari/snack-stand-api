@@ -29,7 +29,7 @@ env = environ.Env(
     DATABASE_HOST=(str, ""),
     DATABASE_PORT=(int, 5432),
 )
-
+# postgres://vjeokevn:19AjdmwHiQ8cdkQhIz391tfQlZpYbSyM@tai.db.elephantsql.com/vjeokevn
 environ.Env.read_env()
 
 ENVIRONMENT = env.str("ENVIRONMENT")
